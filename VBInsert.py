@@ -43,16 +43,16 @@ def VBinsert(x):
 # c.execute("SELECT * FROM Definitions")
 # print pd.read_sql_query("SELECT * FROM Definitions", conn)
 
-w = ['scurrilous']
+# w = ['scurrilous']
 
-for x in w:
-	VBinsert(x)
+# for x in w:
+# 	VBinsert(x)
 
 
 conn.commit()
 
 c.execute("SELECT * FROM Definitions")
-print pd.read_sql_query("SELECT * FROM Definitions", conn)
+print (pd.read_sql_query("SELECT * FROM Definitions", conn))
 
 conn.close()
 
