@@ -1,0 +1,8 @@
+My first couple of broad suggestions are:
+
+1. If you know how to use git, then get rid of commented out code. You can pull up the old versions from version control. If you DON'T know how to use git, learn it so you can get rid of the commented out code.
+
+2. Don't use so many empty lines between things. I used to do it too, but it's unhelpful in the long run. Python standards state that you separate top-level declarations with two empty lines, then use single empty lines between inner declarations.
+Within a code block, you never need more than one blank line. If you are using more than a single blank line within a script (between top-level lines of runnable code as opposed to between top-level declarations), that's no good. If you feel you need more separation, there are two options, with the second being far preferable to the first. 1) add in a comment line that labels that section of code. Or 2) extract that section of code into a new function and let that do the separating and labelling.
+
+The next suggestion is to extract all of your currently working "database" code into a repository class. Then we can build a new class with the same public methods that works for excel.
