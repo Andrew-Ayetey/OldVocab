@@ -38,8 +38,7 @@ def VBinsert(x):
 
 
 
-# VBinsert('ratiocination')
-# c.execute("INSERT INTO Definitions VALUES ('weft'), dictionary)
+
 
 # c.execute("SELECT * FROM Definitions")
 # print pd.read_sql_query("SELECT * FROM Definitions", conn)
