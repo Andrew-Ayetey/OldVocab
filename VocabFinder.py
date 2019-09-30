@@ -8,9 +8,6 @@ def FindWord(x):
 		defi.append(dictionary.meaning(y))
 	return defi
 
-	
-
-# print FindWord(["arraign"])
 
 
 
