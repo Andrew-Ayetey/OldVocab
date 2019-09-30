@@ -1,2 +1,2 @@
 1. Be able to put in words and get them retrieved
-2.
+2.Set up an inidividual API retrieval, so that each individual has their own API to summon, and is not accessable across GitHub (Privacy)
