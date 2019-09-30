@@ -8,7 +8,7 @@ class Vocab:
 		self.syn = syn
 		self.antm= antm
 
-V1= Vocab("Pizza")
+
 
 class PyDic(Vocab):
 	def __init__(self, word, definition=None, syn=None, antm=None):
@@ -17,6 +17,3 @@ class PyDic(Vocab):
 		self.syn= pydic.synonym(word)
 		self.antm= pydic.antonym(word)
 
-Life = PyDic("Life")
-
-print(Life.word, Life.definition)
