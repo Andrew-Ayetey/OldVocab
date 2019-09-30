@@ -16,4 +16,7 @@ class PyDic(Vocab):
 		self.definition = pydic.meaning(word)
 		self.syn= pydic.synonym(word)
 		self.antm= pydic.antonym(word)
+#PyDic is defunct in regards to syn and antm
+
+
 
